@@ -1,0 +1,52 @@
+#row {
+  display: flex;
+  flex-direction: row;
+  margin: 100px;
+  justify-items: center;
+}
+
+body {
+  margin: 0px;
+}
+
+#data {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 60px 15px 15px;
+  background-color: white;
+  border: 3px solid blue;
+  text-align: start;
+}
+
+button {
+  display: block;
+  background-color: green;
+  color: white;
+  margin-top: 8px;
+  padding: 4px;
+  border: none;
+  border-radius: 6px;
+  width: 60px;
+  height: 30px;
+}
+
+#role {
+  display: block;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-radius: 16px 0px 0px 16px;
+  text-align: start;
+}
+
+#submit:hover {
+  background-color: red;
+}
+
+/* condition navbar*/
+@media (max-width: 600px) {
+  #row {
+    display: flex;
+    flex-direction: column;
+  }
+}

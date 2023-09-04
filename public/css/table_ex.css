@@ -1,0 +1,10 @@
+#data {
+  background-attachment: fixed;
+  background-color: black;
+}
+
+#id,
+#name,
+#age {
+  color: aliceblue;
+}
