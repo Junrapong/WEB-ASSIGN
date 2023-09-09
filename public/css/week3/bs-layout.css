@@ -1,0 +1,37 @@
+#header {
+  background-color: rgb(18, 118, 233);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+#row {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  max-width: 4rem;
+}
+
+.left {
+  flex: 2;
+}
+
+.right {
+  background-color: rgb(255, 192, 2);
+  flex: 8;
+}
+
+#footer {
+  background-color: rgb(36, 35, 35);
+  color: white;
+  padding: 1rem;
+}
+
+/* condition navbar*/
+@media (max-width: 600px){
+    #row{
+        display: flex;
+        flex-direction: column;
+    }
+}

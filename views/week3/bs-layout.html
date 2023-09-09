@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrp-Layout</title>
+
+    <link rel="stylesheet" href="/public/css/week3/bs-layout.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="container-fluid" id="header">
+        <div class="text-center text-white ">
+            <h2>My Webpage made by Bootstrap5</h2>
+            <p>Bootsrap is responsive and mobile-first</p>
+        </div>
+    </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark px-3 py-3">
+        <a class="navbar-brand" href="#">Our Logo</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+            aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Home <span
+                            class="visually-hidden">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+            <div class="col-auto">
+                <a href="#" class="btn btn-danger">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- row -->
+    <div id="row">
+        <!-- left -->
+        <div class="container my-5 ms-5 left">
+            <div class="col">
+                <div class="detail">
+                    <h2>About</h2>
+                    <h5>My photo</h5>
+                </div>
+            </div>
+            <div class="card shadow" id="myphoto" style="width: 9rem;">
+                <img class="card-img-top" src="/public/img/avatar1.jpg" alt="Avatar1">
+                <div class="card-body">
+                    <h5 class="card-title">My quote</h5>
+                    <p class="card-text">I'll be back!</p>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+            <!-- link -->
+            <h2>Links</h2>
+            <div class="row my-2">
+                <a href="#" class="px-4 my-2 text-decoration-none">Link 1</a>
+                <a href="#" class="px-4 my-2 text-decoration-none">Link 2</a>
+                <a href="#" class="px-4 my-2 text-decoration-none">Link 3</a>
+            </div>
+
+            <!-- my friend -->
+            <h2>My friend</h2>
+            <div>
+                <img src="/public/img/avatar2.jpg" alt="Avatar2" class="rounded-circle shadow avatar ">
+                <img src="/public/img/avatar3.jpg" alt="Avatar3" class="rounded-circle shadow avatar ">
+                <img src="/public/img/avatar4.png" alt="Avatar4" class="rounded-circle shadow avatar ">
+            </div>
+        </div>
+
+        <!-- right -->
+        <div class="container my-5 me-5 right">
+            <div class="container">
+                <h2>Portable X-ray</h2>
+                <h5>01 September 2565 16:55</h5>
+                <img src="/public/img/bg2.jpg" alt="bg2" class="img-fluid border border-4 rounded-1">
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <hr class="mx-3">
+            <div class="container">
+                <div class="container">
+                    <h2>Freshy day</h2>
+                    <h5>01 September 2565 16:55</h5>
+                    <img src="/public/img/bg1.jpg" alt="bg1" class="img-fluid border border-4 rounded-1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div class="justify-content-center" id="footer">
+        <div class="text-center">
+            <h6>Footer</h6>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
